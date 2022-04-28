@@ -2,7 +2,7 @@
 
 안녕하세요 Bit주세요 팀입니다.
 
-> Bit주세요 홈페이지(노션) : [Bit주세요](https://www.notion.so/Bit-572682b84cf4461eadffd8fcec61f14f, "Notion link")
+> Bit주세요 홈페이지(노션) : https://www.notion.so/Bit-572682b84cf4461eadffd8fcec61f14f
 
 ## 1. 팀원소개 🍎
 | 이름 | 소개 |
