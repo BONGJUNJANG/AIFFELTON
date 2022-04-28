@@ -2,7 +2,11 @@
 
 안녕하세요 Bit주세요 팀입니다.
 
-> Bit주세요 홈페이지(노션) : [Bit주세요 홈페이지]: https://roan-prince-424.notion.site/Bit-572682b84cf4461eadffd8fcec61f14f "Go bit주세요"
+
+> Bit주세요 홈페이지(노션): [Bit주세요 홈페이지][Bit주세요]
+
+[Bit주세요]:  https://roan-prince-424.notion.site/Bit-572682b84cf4461eadffd8fcec61f14f "Go bit주세요"
+
 
 ## 1. 팀원소개 🍎
 | 이름 | 소개 |
