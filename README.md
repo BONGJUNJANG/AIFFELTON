@@ -54,7 +54,7 @@
 | Tesk | 담당자 | 기타 |
 | -------  | ------ | ------|
 | 데이터 EDA & 전처리 | 이동현,김은경 | Data smoothing 및 Labeling  |
-| Feature engineering | 김덕우,장봉준 | 주가 추세에 영향을 Feature 선정 및 Feature별 중요도 분석 |
+| Feature engineering | 김덕우,장봉준 | 주가 추세에 영향을 미치는 Feature 선정 및 Feature별 중요도 분석 |
 | Modeling | 김동연,조경모 | ML및 DL모델을 이용한 추세 학습|
   
 * 김덕우 : 건설 관련 업종에서 일을하다가 프로그래머가 한번 되어보고 싶어서 아이펠에 참여했습니다. 멋진 가상화폐 추세 분석기를 만들어서 우리 부자 됩시다! 
