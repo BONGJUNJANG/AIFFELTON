@@ -21,17 +21,18 @@
 
 
 ## 💸  Outline
-#### 1. Trend 또는 Momentum 을 정의
-#### 2. 정의된 Trend / Momentum 을 가장 잘 파악할 수 있는 Feature추출
-#### 3. ML 모델을 선정, 학습
-#### 4. ML 모델의 정확도, 예측력을 검증
-#### 5. ML 모델의 신뢰도에 따라 Betting Size를 결정하여 투자전략 구축
-#### 6. Back Testing
+* 1.Trend 또는 Momentum 을 정의
+* 2.정의된 Trend / Momentum 을 가장 잘 파악할 수 있는 Feature추출
+* 3.ML 모델을 선정, 학습
+* 4.ML 모델의 정확도, 예측력을 검증
+* 5.ML 모델의 신뢰도에 따라 Betting Size를 결정하여 투자전략 구축
+* 6.Back Testing
 
 <br>
 <br>
-<h2> 💸  Process  
-
+<h2> 💸  Process  </h2>
+*추후 프로젝트를 진행하면서 작성 예정
+ 
 ### 1. Trend 또는 Momentum 을 정의
 * Data : Upbit 이더리움 1분봉 데이터 
   
