@@ -7,7 +7,7 @@
 
 
 
-> Bit주세요 홈페이지(노션): https://roan-prince-424.notion.site/Bit-572682b84cf4461eadffd8fcec61f14f 
+> [Bit주세요 홈페이지(노션)]https://roan-prince-424.notion.site/Bit-572682b84cf4461eadffd8fcec61f14f 
 
 
 
