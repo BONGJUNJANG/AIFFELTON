@@ -45,10 +45,10 @@
 ### 2. 정의된 Trend / Momentum 을 가장 잘 파악할 수 있는 Feature추출
 | | Features  |
 | ------- | ------ | 
-| Technical indicator | ROC,MOM, Stochastic, RSI, MACD, 볼린저밴드, DMI, ADX |
-| 가격 | 10, 30, 200분 SMA & EMA |
-| 기타 | Trend scanning t-value |
-| 유동성 지표 | kyle lambda, Amihud lambda, Hasbrouck lamda(예정) |
+| 가격변수 | MA, ROC, 모멘텀, SHochastic osillator, RSI, MACD, 볼린저 밴드 , ADX/MDI, 가격 및 거래량 비율 지표 |
+| 수요공급지표 | 비트코인 종가,달러인덱스,비트코인 도미넌스, S&P 500, 김치프리미엄, 디파이 예치금 |
+| 심리변수 | 뉴스기사 빈도수, 네이버 트랜드 |
+| 유동성 지표 | kyle lambda, Amihud lambda, Hasbrouck lamda |
 |  |  |
 
   
