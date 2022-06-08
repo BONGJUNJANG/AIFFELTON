@@ -37,7 +37,7 @@
 | Data | Upbit 이더리움 1분봉 데이터 |
 | 데이터 스무딩 | centered MA |
 | labeling method | Trend scanning |
-|  |  |
+
   
 (트렌드 잘 보여주는 이미지 추가, )
   
@@ -48,7 +48,7 @@
 | 가격변수 | MA, ROC, 모멘텀, SHochastic osillator, RSI, MACD, 볼린저 밴드 , ADX/MDI, 가격 및 거래량 비율 지표 |
 | 수요공급지표 | 비트코인 종가,달러인덱스,비트코인 도미넌스, S&P 500, 김치프리미엄, 디파이 예치금 |
 | 심리변수 | 뉴스기사 빈도수, 네이버 트랜드 |
-| 유동성 지표 | kyle lambda, Amihud lambda, Hasbrouck lamda |
+| 유동성 지표 | kyle lambda, Amihud lambda, Hasbrouck lambda |
 
 
   
