@@ -55,10 +55,10 @@
 ### 3. ML 모델을 선정, 학습
 | 머신러닝 | 딥러닝  |
 | ------- | ------ | 
-|  |LSTM  |
-|  |1DCNN |
-|  |1DCNN+LSTM  |
-|  |BiLSTM  |
+| LGBM |LSTM  |
+| RF |1DCNN |
+| SVM |1DCNN+LSTM  |
+| logistic regression |BiLSTM  |
  
 | Ensamble  |
 | ----------- | 
