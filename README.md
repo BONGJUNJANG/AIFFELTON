@@ -4,33 +4,39 @@
 <h5 align="center"> 딥러닝 모델을 활용하여 비트코인의 추세를 예측, 실제로 사용할 수 있는 투자전략 구축
 </h5>
 <br>
- 
-> #### [Bit주세요 Notion 바로가기](https://roan-prince-424.notion.site/Bit-572682b84cf4461eadffd8fcec61f14f)
 
+> #### [발표 자료]()
 
+> #### [팀 노션 페이지](https://roan-prince-424.notion.site/Bit-572682b84cf4461eadffd8fcec61f14f)
  
- 
+<br>
+
 ## 💸  Goal
-* 암호화폐에 대한 관심이 나날이 급증!
-* 어떻게 하면, 효과적으로 암호화폐를 적기에 매매할 수 있을까?
-* 믿을 수 없는 나의 직감보다, ML 로 그 해답을 찾아보자
-* __시장 모멘텀을 포착해보자!__
+* 가상화폐 시장이 지속적으로 성장하는 상황에서 투자자의 편견 등으로 매매 타이밍 결정에 어려움을 겪는 문제점 발생
+* 머신러닝 및 딥러닝 모델을 활용하여 가상화폐(이더리움) 가격의 상승 및 하락 여부 판단
 <br>
 
  
 ## 💸  Outline
-* 1.Trend 또는 Momentum 을 정의
-* 2.정의된 Trend / Momentum 을 가장 잘 파악할 수 있는 Feature추출
-* 3.ML 모델을 선정, 학습
-* 4.ML 모델의 정확도, 예측력을 검증
-* 5.ML 모델의 신뢰도에 따라 Betting Size를 결정하여 투자전략 구축
-* 6.Back Testing
+1. Trend 또는 Momentum 을 정의
+
+2. 정의된 Trend / Momentum 을 가장 잘 파악할 수 있는 Feature추출
+
+3. ML 모델을 선정, 학습
+
+4. ML 모델의 정확도, 예측력을 검증
+
+5. ML 모델의 신뢰도에 따라 Betting Size를 결정하여 투자전략 구축
+
+6. Back Testing
+
 <br>
  
  
 <h2> 💸  Process  </h2>
  
 ### 1. Trend 또는 Momentum 을 정의
+* 이더리움 1년치 분봉 데이터를 Trend Scanning 기법을 사용하여 상승, 하락, 보합으로 라벨링
 
 | | 내용  |
 | ------- | ------ | 
@@ -38,11 +44,12 @@
 | 데이터 스무딩 | centered MA |
 | labeling method | Trend scanning |
 
-  
-(트렌드 잘 보여주는 이미지 추가, )
+</br>  
   
   
 ### 2. 정의된 Trend / Momentum 을 가장 잘 파악할 수 있는 Feature추출
+
+
 | | Features  |
 | ------- | ------ | 
 | 가격변수 | MA, ROC, 모멘텀, SHochastic osillator, RSI, MACD, 볼린저 밴드 , ADX/MDI, 가격 및 거래량 비율 지표 |
@@ -50,9 +57,9 @@
 | 심리변수 | 뉴스기사 빈도수, 네이버 트랜드 |
 | 유동성 지표 | kyle lambda, Amihud lambda, Hasbrouck lambda |
 
-
+</br>  
   
-### 3. ML 모델을 선정, 학습
+### 3. ML 및 DL 모델을 선정, 학습
 | 머신러닝 | 딥러닝  |
 | ------- | ------ | 
 | LGBM |LSTM  |
@@ -65,14 +72,17 @@
 |1DCNN + BiLSTM  |
 |RF + BiLSTM|
   
-  
-### 4. ML 모델의 정확도, 예측력을 검증
-| 머신러닝 |  |
+</br>  
+
+### 4. ML 및 DL 모델의 정확도, 예측력을 검증
+
+* Soft Voting(Random Forest + BiLSTM)을 통해 0.4466(f1-score) 성능 도출
+
+| 머신러닝 | F1-score |
 | ------- | ------ | 
-|  |  |
-|  |  |
-|  |  |
-|  |  |
+| LGBM | 0.3860 |
+| RF | 0.4037 |
+| SVM | 0.3217 |
   
 | 딥러닝 | Micro F1-score  |
 | ------- | ------ | 
@@ -83,9 +93,10 @@
 | 1DCNN+BiLSTM Ensambel  | 0.3594 |
 | RF+BiLSTM Ensambel  | 0.4466 |
  
-
-  
-  
+ 
+</br>  
+ 
+ 
 ### 5. ML 모델의 신뢰도에 따라 Betting Size를 결정하여 투자전략 구축
 |  |  |
 | ------- | ------ | 
