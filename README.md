@@ -5,7 +5,7 @@
 </h5>
 <br>
 
-> #### [발표 자료]()
+> #### [발표 자료](https://docs.google.com/presentation/d/1PUFncbIVYJJtibS2K9LmozU6ArHs4PIx/edit#slide=id.p1)
 
 > #### [팀 노션 페이지](https://roan-prince-424.notion.site/Bit-572682b84cf4461eadffd8fcec61f14f)
  
